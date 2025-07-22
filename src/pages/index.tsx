@@ -8,8 +8,40 @@ const inter = Inter({
 });
 
 export default function Home() {
-  const handleButtonClick = (url: string) => {
-    window.open(url, '_blank');
+  const handleButtonClick = async (url: string, filename: string) => {
+    // Detecta se é mobile
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+      try {
+        // Abordagem 1: Fetch + Blob para download forçado
+        const response = await fetch(url);
+        const blob = await response.blob();
+        const blobUrl = window.URL.createObjectURL(blob);
+        
+        const link = document.createElement('a');
+        link.href = blobUrl;
+        link.download = filename;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        // Limpa o blob URL após um tempo
+        setTimeout(() => {
+          window.URL.revokeObjectURL(blobUrl);
+        }, 1000);
+        
+      } catch (error) {
+        // Fallback: abre em nova aba
+        window.open(url, '_blank');
+      }
+    } else {
+      // Para desktop, abre em nova aba
+      window.open(url, '_blank');
+    }
   };
 
   return (
@@ -40,7 +72,10 @@ export default function Home() {
           <div className={styles.buttonContainer}>
             <button 
               className={`${styles.button} ${styles.buttonBeleza}`}
-              onClick={() => handleButtonClick('https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Beleza.pdf?alt=media&token=dec10808-0679-49f9-b2f0-4de4600cce7f')}
+              onClick={() => handleButtonClick(
+                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Beleza.pdf?alt=media&token=dec10808-0679-49f9-b2f0-4de4600cce7f',
+                'Revista-Avon-Beleza.pdf'
+              )}
             >
               <div className={styles.buttonIcon}>💄</div>
               <div className={styles.buttonContent}>
@@ -52,7 +87,10 @@ export default function Home() {
 
             <button 
               className={`${styles.button} ${styles.buttonCasa}`}
-              onClick={() => handleButtonClick('https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Casa%20%26%20Estilo.pdf?alt=media&token=07f68a5d-b5bf-4503-901a-f4630c1a07c1')}
+              onClick={() => handleButtonClick(
+                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Casa%20%26%20Estilo.pdf?alt=media&token=07f68a5d-b5bf-4503-901a-f4630c1a07c1',
+                'Casa-Estilo.pdf'
+              )}
             >
               <div className={styles.buttonIcon}>🏠</div>
               <div className={styles.buttonContent}>
@@ -64,7 +102,10 @@ export default function Home() {
 
             <button 
               className={`${styles.button} ${styles.buttonNatura}`}
-              onClick={() => handleButtonClick('https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Centro-Oeste%20e%20Minas%20Gerais.pdf?alt=media&token=be09e6e2-73be-4078-ab48-935729eb79f5')}
+              onClick={() => handleButtonClick(
+                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Centro-Oeste%20e%20Minas%20Gerais.pdf?alt=media&token=be09e6e2-73be-4078-ab48-935729eb79f5',
+                'Revista-Natura.pdf'
+              )}
             >
               <div className={styles.buttonIcon}>🌿</div>
               <div className={styles.buttonContent}>
