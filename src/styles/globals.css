@@ -18,6 +18,11 @@ body {
   height: 100%;
 }
 
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -43,11 +48,6 @@ button {
   border: none;
   background: none;
   cursor: pointer;
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
 }
 
 /* Remove default button styles */
