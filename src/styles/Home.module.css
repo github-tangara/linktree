@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 
-/* Background com gradiente */
+/* Background com gradiente simplificado */
 .background {
   position: fixed;
   top: 0;
@@ -20,15 +20,7 @@
 .gradient {
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 25%, #f48fb1 50%, #f06292 75%, #ec407a 100%);
-  background-size: 400% 400%;
-  animation: gradientShift 15s ease infinite;
-}
-
-@keyframes gradientShift {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 50%, #f48fb1 100%);
 }
 
 /* Main content */
@@ -48,7 +40,6 @@
 .header {
   text-align: center;
   margin-bottom: 3rem;
-  animation: fadeInUp 0.8s ease-out;
 }
 
 .title {
@@ -90,7 +81,6 @@
   gap: 1.5rem;
   width: 100%;
   max-width: 400px;
-  animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
 /* Buttons */
@@ -104,25 +94,10 @@
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
   min-height: 80px;
-}
-
-.button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-  transition: left 0.5s;
-}
-
-.button:hover::before {
-  left: 100%;
 }
 
 .button:hover {
@@ -191,7 +166,6 @@
 .footer {
   margin-top: 3rem;
   text-align: center;
-  animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
 .footerText {
@@ -199,18 +173,6 @@
   font-size: 0.95rem;
   font-weight: 400;
   margin: 0;
-}
-
-/* Animations */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 /* Responsive design */
