@@ -42,7 +42,7 @@ export default function Home() {
             <button 
               className={`${styles.button} ${styles.buttonBeleza}`}
               onClick={() => handleButtonClick(
-                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Beleza.pdf?alt=media&token=dec10808-0679-49f9-b2f0-4de4600cce7f'
+                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2Fciclo-13%2F13%20Beleza.pdf?alt=media&token=43aa50df-0841-48b6-b503-b64df4175058'
               )}
             >
               <div className={styles.buttonIcon}>💄</div>
@@ -56,7 +56,7 @@ export default function Home() {
             <button 
               className={`${styles.button} ${styles.buttonCasa}`}
               onClick={() => handleButtonClick(
-                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Casa%20%26%20Estilo.pdf?alt=media&token=07f68a5d-b5bf-4503-901a-f4630c1a07c1'
+                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2Fciclo-13%2F13%20Casa%20%26%20Estilo%202.pdf?alt=media&token=cc94d2e4-35ed-439d-b851-756d03ef20c1'
               )}
             >
               <div className={styles.buttonIcon}>🏠</div>
@@ -70,13 +70,27 @@ export default function Home() {
             <button 
               className={`${styles.button} ${styles.buttonNatura}`}
               onClick={() => handleButtonClick(
-                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2F07-2025%2F12%20Centro-Oeste%20e%20Minas%20Gerais.pdf?alt=media&token=be09e6e2-73be-4078-ab48-935729eb79f5'
+                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2Fciclo-13%2F13%20natura.pdf?alt=media&token=b74e39e3-f3fb-4f6d-a049-eb744162029b'
               )}
             >
               <div className={styles.buttonIcon}>🌿</div>
               <div className={styles.buttonContent}>
                 <span className={styles.buttonTitle}>Revista Natura</span>
                 <span className={styles.buttonSubtitle}>Completa</span>
+              </div>
+              <div className={styles.buttonArrow}>→</div>
+            </button>
+
+            <button 
+              className={`${styles.button} ${styles.buttonDestaques}`}
+              onClick={() => handleButtonClick(
+                'https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2Fciclo-13%2F13%20Brasil.pdf?alt=media&token=2f07187b-7d5d-4f06-b57b-d8165f4375ba'
+              )}
+            >
+              <div className={styles.buttonIcon}>⭐</div>
+              <div className={styles.buttonContent}>
+                <span className={styles.buttonTitle}>Destaques</span>
+                <span className={styles.buttonSubtitle}>Brasil</span>
               </div>
               <div className={styles.buttonArrow}>→</div>
             </button>
