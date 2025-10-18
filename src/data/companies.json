@@ -1,0 +1,182 @@
+{
+  "ui-13245-13": {
+    "id": "ui-13245-13",
+    "company_id": "natura-13245-13",
+    "name": "Natura",
+    "displayName": "Revistas Natura",
+    "subtitle": "Beleza & Estilo",
+    "description": "Descubra as últimas tendências em beleza e estilo",
+    "theme": {
+      "primaryColor": "#ff6b9d",
+      "secondaryColor": "#ff8fab",
+      "accentColor": "#f48fb1",
+      "gradient": "linear-gradient(135deg, #fce4ec 0%, #f8bbd9 50%, #f48fb1 100%)"
+    },
+    "magazines": [
+      {
+        "id": "beleza",
+        "title": "Revista Avon",
+        "subtitle": "Beleza",
+        "icon": "💄",
+        "url": "https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2Fciclo-13%2F13%20Beleza.pdf?alt=media&token=43aa50df-0841-48b6-b503-b64df4175058",
+        "buttonClass": "buttonBeleza"
+      },
+      {
+        "id": "casa",
+        "title": "Casa & Estilo",
+        "subtitle": "Decoração",
+        "icon": "🏠",
+        "url": "https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2Fciclo-13%2F13%20Casa%20%26%20Estilo%202.pdf?alt=media&token=cc94d2e4-35ed-439d-b851-756d03ef20c1",
+        "buttonClass": "buttonCasa"
+      },
+      {
+        "id": "natura",
+        "title": "Revista Natura",
+        "subtitle": "Completa",
+        "icon": "🌿",
+        "url": "https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2Fciclo-13%2F13%20natura.pdf?alt=media&token=b74e39e3-f3fb-4f6d-a049-eb744162029b",
+        "buttonClass": "buttonNatura"
+      },
+      {
+        "id": "destaques",
+        "title": "Destaques",
+        "subtitle": "Brasil",
+        "icon": "⭐",
+        "url": "https://firebasestorage.googleapis.com/v0/b/foodsonline-a7b19.appspot.com/o/natura%2Fciclo-13%2F13%20Brasil.pdf?alt=media&token=2f07187b-7d5d-4f06-b57b-d8165f4375ba",
+        "buttonClass": "buttonDestaques"
+      }
+    ],
+    "footer": {
+      "text": "✨ Descubra produtos incríveis para sua beleza e bem-estar"
+    }
+  },
+  "ui-12345-14": {
+    "id": "ui-12345-14",
+    "company_id": "avon-12345-14",
+    "name": "Avon",
+    "displayName": "Catálogos Avon",
+    "subtitle": "Beleza & Moda",
+    "description": "Explore o mundo da beleza e moda com Avon",
+    "theme": {
+      "primaryColor": "#8e24aa",
+      "secondaryColor": "#ab47bc",
+      "accentColor": "#ba68c8",
+      "gradient": "linear-gradient(135deg, #f3e5f5 0%, #e1bee7 50%, #ce93d8 100%)"
+    },
+    "magazines": [
+      {
+        "id": "moda",
+        "title": "Avon Moda",
+        "subtitle": "Tendências",
+        "icon": "👗",
+        "url": "https://example.com/avon-moda.pdf",
+        "buttonClass": "buttonBeleza"
+      },
+      {
+        "id": "beleza",
+        "title": "Avon Beleza",
+        "subtitle": "Maquiagem",
+        "icon": "💋",
+        "url": "https://example.com/avon-beleza.pdf",
+        "buttonClass": "buttonCasa"
+      },
+      {
+        "id": "perfumes",
+        "title": "Perfumes Avon",
+        "subtitle": "Fragrâncias",
+        "icon": "🌸",
+        "url": "https://example.com/avon-perfumes.pdf",
+        "buttonClass": "buttonNatura"
+      }
+    ],
+    "footer": {
+      "text": "💫 Sua beleza é nossa inspiração"
+    }
+  },
+  "ui-54321-15": {
+    "id": "ui-54321-15",
+    "company_id": "boticario-54321-15",
+    "name": "Boticário",
+    "displayName": "O Boticário",
+    "subtitle": "Perfumes & Cosméticos",
+    "description": "Desperte seus sentidos com O Boticário",
+    "theme": {
+      "primaryColor": "#2e7d32",
+      "secondaryColor": "#43a047",
+      "accentColor": "#66bb6a",
+      "gradient": "linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 50%, #a5d6a7 100%)"
+    },
+    "magazines": [
+      {
+        "id": "perfumes",
+        "title": "Perfumes Premium",
+        "subtitle": "Fragrâncias",
+        "icon": "🌺",
+        "url": "https://example.com/boticario-perfumes.pdf",
+        "buttonClass": "buttonBeleza"
+      },
+      {
+        "id": "cosmeticos",
+        "title": "Cosméticos",
+        "subtitle": "Cuidados",
+        "icon": "✨",
+        "url": "https://example.com/boticario-cosmeticos.pdf",
+        "buttonClass": "buttonCasa"
+      },
+      {
+        "id": "presentes",
+        "title": "Presentes",
+        "subtitle": "Especiais",
+        "icon": "🎁",
+        "url": "https://example.com/boticario-presentes.pdf",
+        "buttonClass": "buttonNatura"
+      }
+    ],
+    "footer": {
+      "text": "🌿 Conecte-se com a natureza através da beleza"
+    }
+  },
+  "assadosincasa": {
+    "id": "assadosincasa",
+    "company_id": "da76c7fe-f3ff-4680-a6be-3ce7d42c87fe",
+    "name": "Assados In'Casa",
+    "displayName": "Assados In'Casa",
+    "subtitle": "Sabores Artesanais",
+    "description": "Deliciosos assados artesanais feitos com carinho em casa",
+    "theme": {
+      "primaryColor": "#d84315",
+      "secondaryColor": "#ff5722",
+      "accentColor": "#ff8a65",
+      "gradient": "linear-gradient(135deg, #fff3e0 0%, #ffe0b2 50%, #ffcc80 100%)"
+    },
+    "magazines": [
+      {
+        "id": "cardapio",
+        "title": "Cardápio",
+        "subtitle": "Delivery Online",
+        "icon": "🍽️",
+        "url": "https://assadosincasa.i9sales.com/delivery",
+        "buttonClass": "buttonBeleza"
+      },
+      {
+        "id": "localizacao",
+        "title": "Localização",
+        "subtitle": "Como Chegar",
+        "icon": "📍",
+        "url": "https://www.google.com/maps/place/14%C2%B036'19.6%22S+57%C2%B028'59.2%22W/@-14.6054468,-57.485691,17z/data=!4m4!3m3!8m2!3d-14.6054444!4d-57.4831111?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "buttonClass": "buttonCasa"
+      },
+      {
+        "id": "whatsapp",
+        "title": "WhatsApp",
+        "subtitle": "Fale Conosco",
+        "icon": "💬",
+        "url": "https://wa.me/5565999343334?text=Olá! Gostaria de fazer um pedido nos Assados In'Casa.",
+        "buttonClass": "buttonNatura"
+      }
+    ],
+    "footer": {
+      "text": "🏠 Feito com amor, direto da nossa casa para a sua"
+    }
+  }
+}

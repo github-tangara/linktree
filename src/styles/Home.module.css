@@ -162,6 +162,10 @@
   border-left: 4px solid #f48fb1;
 }
 
+.buttonDestaques {
+  border-left: 4px solid #ff6b9d;
+}
+
 /* Footer */
 .footer {
   margin-top: 3rem;
