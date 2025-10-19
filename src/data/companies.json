@@ -163,7 +163,7 @@
         "title": "Localização",
         "subtitle": "Como Chegar",
         "icon": "📍",
-        "url": "https://www.google.com/maps/place/14%C2%B036'19.6%22S+57%C2%B028'59.2%22W/@-14.6054468,-57.485691,17z/data=!4m4!3m3!8m2!3d-14.6054444!4d-57.4831111?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "url": "https://www.google.com/maps?q=-14.607632,-57.4808029",
         "buttonClass": "buttonCasa"
       },
       {
