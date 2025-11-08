@@ -183,9 +183,9 @@
     "id": "bem-popular",
     "company_id": "663cd889-bb05-4766-87ef-3f349dad49b9",
     "name": "Bem Popular",
-    "displayName": "Farmácia Bem Popular",
+    "displayName": "Drogaria Bem Popular",
     "subtitle": "Saúde & Bem-Estar",
-    "description": "Sua saúde em primeiro lugar! Preços populares e atendimento de qualidade",
+    "description": "Comprar barato é o melhor remédio",
     "theme": {
       "primaryColor": "#00a651",
       "secondaryColor": "#00c767",
@@ -203,24 +203,32 @@
         "isInternal": true
       },
       {
+        "id": "instagram",
+        "title": "Instagram",
+        "subtitle": "Siga-nos",
+        "icon": "📸",
+        "url": "https://www.instagram.com/bempopulartga/",
+        "buttonClass": "buttonCasa"
+      },
+      {
         "id": "localizacao",
         "title": "Localização",
         "subtitle": "Como Chegar",
         "icon": "📍",
         "url": "https://maps.app.goo.gl/ZdBzeAkeJ3sdMP6q9",
-        "buttonClass": "buttonCasa"
+        "buttonClass": "buttonNatura"
       },
       {
         "id": "whatsapp",
         "title": "WhatsApp",
         "subtitle": "Fale Conosco",
         "icon": "💬",
-        "url": "https://wa.me/556596587767?text=Olá! Gostaria de mais informações sobre os produtos da Farmácia Bem Popular.",
-        "buttonClass": "buttonNatura"
+        "url": "https://wa.me/556596587767?text=Olá! Gostaria de mais informações sobre os produtos da Drogaria Bem Popular.",
+        "buttonClass": "buttonDestaques"
       }
     ],
     "footer": {
-      "text": "💊 Cuidando da sua saúde com preços populares"
+      "text": ""
     }
   }
 }
