@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { GetServerSideProps, GetServerSidePropsContext } from "next";
+import { useRouter } from "next/router";
 import companiesData from "@/data/companies.json";
 
 const inter = Inter({
@@ -16,6 +17,7 @@ interface Magazine {
   icon: string;
   url: string;
   buttonClass: string;
+  isInternal?: boolean;
 }
 
 interface Theme {
@@ -45,6 +47,8 @@ interface CompanyPageProps {
 }
 
 export default function CompanyPage({ company, error }: CompanyPageProps) {
+  const router = useRouter();
+
   if (error || !company) {
     return (
       <>
@@ -76,8 +80,12 @@ export default function CompanyPage({ company, error }: CompanyPageProps) {
     );
   }
 
-  const handleButtonClick = (url: string) => {
-    window.open(url, '_blank');
+  const handleButtonClick = (url: string, isInternal?: boolean) => {
+    if (isInternal) {
+      router.push(url);
+    } else {
+      window.open(url, '_blank');
+    }
   };
 
   const handleWhatsAppPromo = () => {
@@ -151,7 +159,7 @@ export default function CompanyPage({ company, error }: CompanyPageProps) {
               <button 
                 key={magazine.id}
                 className={`${styles.button} ${styles[magazine.buttonClass]}`}
-                onClick={() => handleButtonClick(magazine.url)}
+                onClick={() => handleButtonClick(magazine.url, magazine.isInternal)}
               >
                 <div className={styles.buttonIcon}>{magazine.icon}</div>
                 <div className={styles.buttonContent}>

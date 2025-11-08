@@ -178,5 +178,49 @@
     "footer": {
       "text": "🏠 Feito com amor, direto da nossa casa para a sua"
     }
+  },
+  "bem-popular": {
+    "id": "bem-popular",
+    "company_id": "663cd889-bb05-4766-87ef-3f349dad49b9",
+    "name": "Bem Popular",
+    "displayName": "Farmácia Bem Popular",
+    "subtitle": "Saúde & Bem-Estar",
+    "description": "Sua saúde em primeiro lugar! Preços populares e atendimento de qualidade",
+    "theme": {
+      "primaryColor": "#00a651",
+      "secondaryColor": "#00c767",
+      "accentColor": "#4caf50",
+      "gradient": "linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 50%, #a5d6a7 100%)"
+    },
+    "magazines": [
+      {
+        "id": "promocoes",
+        "title": "Promoções",
+        "subtitle": "Ofertas Especiais",
+        "icon": "🎉",
+        "url": "/bem-popular/promocoes",
+        "buttonClass": "buttonBeleza",
+        "isInternal": true
+      },
+      {
+        "id": "localizacao",
+        "title": "Localização",
+        "subtitle": "Como Chegar",
+        "icon": "📍",
+        "url": "https://maps.app.goo.gl/ZdBzeAkeJ3sdMP6q9",
+        "buttonClass": "buttonCasa"
+      },
+      {
+        "id": "whatsapp",
+        "title": "WhatsApp",
+        "subtitle": "Fale Conosco",
+        "icon": "💬",
+        "url": "https://wa.me/556596587767?text=Olá! Gostaria de mais informações sobre os produtos da Farmácia Bem Popular.",
+        "buttonClass": "buttonNatura"
+      }
+    ],
+    "footer": {
+      "text": "💊 Cuidando da sua saúde com preços populares"
+    }
   }
 }

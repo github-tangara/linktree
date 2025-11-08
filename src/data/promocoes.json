@@ -1,0 +1,33 @@
+{
+  "bem-popular": [
+    {
+      "id": "promo-1",
+      "type": "image",
+      "title": "Promoção Especial! 🎉",
+      "description": "Confira nossas ofertas imperdíveis! Aproveite enquanto durarem os estoques.",
+      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-06%20%C3%A0(s)%2016.12.07_c31d7153.jpg"
+    },
+    {
+      "id": "promo-2",
+      "type": "image",
+      "title": "Ofertas da Semana! 💊",
+      "description": "Produtos selecionados com descontos especiais para você!",
+      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-06%20%C3%A0(s)%2016.12.07_d978e380.jpg"
+    },
+    {
+      "id": "promo-3",
+      "type": "image",
+      "title": "Não Perca! 🌟",
+      "description": "Preços incríveis em produtos de qualidade. Válido por tempo limitado!",
+      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-06%20%C3%A0(s)%2016.12.08_d33065d4.jpg"
+    },
+    {
+      "id": "promo-4",
+      "type": "video",
+      "title": "Vídeo das Promoções! 🎬",
+      "description": "Assista e descubra todas as nossas ofertas especiais!",
+      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/V%C3%ADdeo%20do%20WhatsApp%20de%202025-11-07%20%C3%A0(s)%2013.37.40_052b0a00.mp4"
+    }
+  ]
+}
+
