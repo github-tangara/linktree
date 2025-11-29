@@ -1,75 +1,60 @@
 {
   "bem-popular": [
-
+    {
+      "id": "promo-1",
+      "type": "image",
+      "title": "Ofertas Imperdíveis! 🎉",
+      "description": "Confira nossas promoções especiais!",
+      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-28%20%C3%A0(s)%2016.21.12_9e76bdbe.jpg"
+    },
     {
       "id": "promo-2",
       "type": "image",
-      "title": "Descontos Incríveis! 💊",
-      "description": "Produtos com preços que cabem no seu bolso!",
-      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-17%20%C3%A0(s)%2009.04.46_61c2b949.jpg"
+      "title": "Super Descontos! 💊",
+      "description": "Aproveite nossos preços especiais!",
+      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-28%20%C3%A0(s)%2016.21.13_26b274b6.jpg"
     },
     {
       "id": "promo-3",
       "type": "image",
       "title": "Promoções da Semana! 🌟",
-      "description": "Não perca essas ofertas especiais!",
-      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-17%20%C3%A0(s)%2009.04.46_be682c60.jpg"
+      "description": "Não perca essas ofertas exclusivas!",
+      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-28%20%C3%A0(s)%2016.21.13_5fe53283.jpg"
     },
     {
       "id": "promo-4",
-      "type": "image",
-      "title": "Super Ofertas! 💚",
-      "description": "Economia garantida em produtos de qualidade!",
-      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-17%20%C3%A0(s)%2009.04.46_c4b15aaf.jpg"
-    },
-    {
-      "id": "promo-5",
-      "type": "image",
-      "title": "Aproveite Agora! 🎯",
-      "description": "Preços que você só encontra aqui!",
-      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-17%20%C3%A0(s)%2009.04.47_15b609e1.jpg"
-    },
-    {
-      "id": "promo-6",
-      "type": "image",
-      "title": "Liquidação! 🔥",
-      "description": "Descontos especiais por tempo limitado!",
-      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-17%20%C3%A0(s)%2009.04.47_35cf57e7.jpg"
-    },
-    {
-      "id": "promo-7",
-      "type": "image",
-      "title": "Última Chance! ⚡",
-      "description": "Aproveite enquanto durarem os estoques!",
-      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/Imagem%20do%20WhatsApp%20de%202025-11-17%20%C3%A0(s)%2009.04.47_6f716006.jpg"
-    },
-    {
-      "id": "promo-8",
       "type": "video",
       "title": "Conheça a Fralda Nateen 🎬",
       "description": "Nateen: conforto, proteção e absorção que você sente na hora!",
       "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/V%C3%ADdeo%20do%20WhatsApp%20de%202025-11-07%20%C3%A0(s)%2013.37.40_052b0a00.mp4"
     },
     {
-      "id": "promo-9",
+      "id": "promo-5",
       "type": "video",
       "title": "Dorin7: Alívio Já! 🎥",
       "description": "Dorin7 é o suplemento que ajuda no alívio das dores articulares e musculares, trazendo mais conforto, mobilidade e qualidade de vida.",
       "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/V%C3%ADdeo%20do%20WhatsApp%20de%202025-11-08%20%C3%A0(s)%2014.11.30_9dee7b0c.mp4"
     },
     {
-      "id": "promo-10",
+      "id": "promo-6",
       "type": "video",
       "title": "Você sofre com dores articulares? 📹",
       "description": "Dorin7 ajuda a aliviar dores articulares e musculares, devolvendo sua mobilidade e bem-estar.",
       "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/V%C3%ADdeo%20do%20WhatsApp%20de%202025-11-08%20%C3%A0(s)%2014.11.20_2b464813.mp4"
     },
     {
-      "id": "promo-11",
+      "id": "promo-7",
       "type": "video",
       "title": "Confira Nossas Ofertas! 🎬",
       "description": "Veja em vídeo todas as promoções disponíveis!",
       "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/V%C3%ADdeo%20do%20WhatsApp%20de%202025-11-17%20%C3%A0(s)%2009.04.49_9f23c4c1.mp4"
+    },
+    {
+      "id": "promo-8",
+      "type": "video",
+      "title": "Novidades e Promoções! 📹",
+      "description": "Assista e descubra mais ofertas especiais!",
+      "url": "https://media.i9sales.com/farmacia-bem-popular/promo%C3%A7%C3%B5es/V%C3%ADdeo%20do%20WhatsApp%20de%202025-11-24%20%C3%A0(s)%2012.21.34_27f4787b.mp4"
     }
   ]
 }
